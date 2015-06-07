@@ -1,4 +1,4 @@
-# ES6 Isomorphic Flux/ReactJS Boilerplate
+# ES6 Isomorphic Flux/ReactJS Boilerplate [WIP]
 
 > A fork of Isomorphic boilerplate (https://github.com/iam4x/isomorphic-flux-boilerplate), comes
 with less bells and whistles and Express on the server side.
