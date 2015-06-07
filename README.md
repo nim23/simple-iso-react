@@ -1,6 +1,8 @@
 # ES6 Isomorphic Flux/ReactJS Boilerplate
 
-> A fork for wonderful boilerplate for **Flux/ReactJS** [isomorphic](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/) applications, running on **Express**.
+> A fork of Isomorphic boilerplate (https://github.com/iam4x/isomorphic-flux-boilerplate), comes
+with less bells and whistles and Express on the server side.
+**Flux/ReactJS** [isomorphic](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/) applications, running on **Express**.
 
 ## Libraries Included
 
