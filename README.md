@@ -2,7 +2,6 @@
 
 > A fork of Isomorphic boilerplate (https://github.com/iam4x/isomorphic-flux-boilerplate), comes
 with less bells and whistles and Express on the server side.
-**Flux/ReactJS** [isomorphic](http://nerds.airbnb.com/isomorphic-javascript-future-web-apps/) applications, running on **Express**.
 
 ## Libraries Included
 
@@ -20,7 +19,7 @@ Use with `iojs^1.8.0` or `nodejs^0.12.0`, clone the repo, `npm install` and `npm
 
 Learn React ([react-prime-draft](https://github.com/mikechau/react-primer-draft)), learn Flux and Alt ([alt guide](http://alt.js.org/guide/)).
 
-Wrap you async actions into promises, send them to `altResolver` with `altResolver.resolve(xxx)` for async server side rendering (see [app/actions/pojects.js:31](https://github.com/iam4x/isomorphic-flux-boilerplate/blob/master/app/actions/projects.js#L31)).
+Wrap you async actions into promises, send them to `altResolver` with `altResolver.resolve(xxx)` for async server side rendering (see [app/actions/pojects.js:22](https://github.com/nim23/simple-iso-react/blob/master/app/actions/projects.js#L22)).
 
 ## Concepts
 
@@ -38,7 +37,7 @@ We need to use instances for isomorphic applications, to have a unique store/act
 
 On the client, Flux is initialized in `app/main.js` and sent to our first React Component via props (`this.props.flux`). Everytime you want to uses stores or actions in a component you need to give it access through props.
 
-On the server, it's similar but Flux is initialized in `server/router.jsx`. The instance is sent to `alt-resolver` for rendering components with the correct props.
+On the server, it's similar but Flux is initialized in `server/router.js`. The instance is sent to `alt-resolver` for rendering components with the correct props.
 
 Learn more about [alt instances](alt.js.org/docs/altInstances) in the alt documentation.
 
@@ -99,6 +98,11 @@ But it works well with `nodejs^0.12.0` as well :)
 * `$ npm run dev`
 
 Open your browser to `http://localhost:11000` and you will see the magic happens! Try to disable JavaScript in your browser, you will still be able to navigate between pages of the application. Enjoy the power of isomorphic applications!
+
+### Run the project in production:
+
+* `$ npm run prod`
+
 
 ### Learn more
 
