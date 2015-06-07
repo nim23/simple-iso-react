@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Simple ISO React</title>
+	</head>
+	<body>
+		<section id="content"> <%= content %> </section>
+		<% if (PROD) { %>
+		<script type="text/javascript" src="/build/js/bundle.min.js" async></script>
+		<% } else { %>
+			<script type="text/javascript" src="/build/js/bundle.js" async></script>
+		<% } %>
+	</body>
+</html>
